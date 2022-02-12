@@ -1,0 +1,23 @@
+{
+  "name": "submit-bot-discord",
+  "version": "1.0.0",
+  "description": "Bot Run By Shuruhatik#2443",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "keywords": ["submit-bot-discord","discord","discord-modal"],
+  "author": "shuruhatik",
+  "license": "CC BY-NC-ND 4.0",
+  "dependencies": {
+    "chalk-animation": "^1.6.0",
+    "discord-modal": "^1.0.2",
+    "discord.js": "^13.6.0",
+    "express": "^4.17.2",
+    "inquirer": "^8.2.0",
+    "ms": "^2.1.3",
+    "nanospinner": "^1.0.0",
+    "st.db": "^4.0.2"
+  }
+}
