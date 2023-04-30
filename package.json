@@ -5,7 +5,7 @@
   "main": "index.mjs",
   "type": "module",
   "scripts": {
-    "start": "node index.mjs"
+    "start": "node index.js"
   },
   "keywords": ["submit-bot-discord","discord","discord-modal"],
   "author": "shuruhatik",
