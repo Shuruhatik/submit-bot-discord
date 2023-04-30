@@ -6,8 +6,8 @@ import { createSpinner } from "nanospinner";
 import Database from "st.db";
 import ms from 'ms';
 import express from 'express';
-import synchronizeSlashCommands from './util/SyncCommands.mjs'
-import commandResponse from './util/commandResponse.mjs'
+import synchronizeSlashCommands from './util/SyncCommands.js'
+import commandResponse from './util/commandResponse.js'
 const app = express()
 const questions_db = new Database({path:"./util/questions.yml"})
 const users_applys_db = new Database({path:"./util/users_applys.yml"})
