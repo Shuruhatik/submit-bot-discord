@@ -12,11 +12,7 @@ const app = express()
 const questions_db = new Database({path:"./util/questions.yml"})
 const users_applys_db = new Database({path:"./util/users_applys.yml"})
 const config_db = new Database({
-  path:"./util/config.yml",
-  encryption: {
-    password:process.env["PATH"],
-    digest:"blake2s256"
-  }
+  path:"./util/config.yml"
 })
 
 
